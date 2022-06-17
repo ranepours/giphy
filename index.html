@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>giphy party</title>
+    <link rel="stylesheet" href="giphy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        <span class='character'>G</span>
+        <span class='character'>I</span>
+        <span class='character'>P</span>
+        <span class='character'>H</span>
+        <span class='character'>Y</span>
+        <span class='character'>P</span> 
+        <span class='character'>A</span>
+        <span class='character'>R</span>
+        <span class='character'>T</span>
+        <span class='character'>Y</span>
+    </h1>
+
+    <div class="form"><form>
+        <input type="text" id="search-bar" name="search-bar" placeholder="Search GIPHY" required>
+        <input id="search-giphy" type="submit" value="Search Giphy" class="button">
+        <button id="remove" class="button">Remove GIFs</button>
+    </form></div>
+
+    <div id="gif-holder"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="giphy.js"></script>
+</body>
+</html>

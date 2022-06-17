@@ -1,0 +1,32 @@
+body{
+    background-color: #060117;
+}
+
+h1{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Monsterrat', sans-serif;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin: 0 auto auto 0;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.character {
+    transition: color 1100ms;
+}
+
+#button{
+    background-color: #FFF;
+    color: #060117
+}
